@@ -1,0 +1,98 @@
+Dataset Description
+Background
+Booking domestic flights involves several factors that influence ticket prices:
+
+Different airlines offer varying fare structures and services.
+Flight prices change based on the source and destination cities.
+Departure and arrival times can affect demand and pricing.
+The number of stops and total flight duration influence travel convenience and cost.
+Flight class, such as Economy or Business, significantly impacts the ticket price.
+Prices may vary depending on the number of days remaining before departure.
+The goal is to build a model that predicts the ticket price of each domestic flight, enabling better travel planning, fare estimation, and data-driven pricing analysis.
+
+Data Description
+The dataset folder contains the following files:
+
+train.csv:
+test.csv:
+submission.csv:
+Columns
+Column Name	Description
+id	Unique identifier for each flight record.
+airline	Name of the airline operating the flight.
+flight	Alphanumeric flight number or identifier.
+source_city	City from which the flight departs.
+departure_time	Time-of-day category when the flight departs.
+stops	Number of stops or layovers during the journey.
+arrival_time	Time-of-day category when the flight arrives.
+destination_city	City where the flight arrives.
+flight_class	Seating class of the ticket, such as Economy or Business.
+duration	Total flight duration in hours.
+days_left	Number of days remaining before the flight departure date.
+price	Target variable representing the flight ticket price in US Dollars.
+Files
+3 files
+
+Size
+2.08 MB
+
+Type
+csv
+
+License
+MIT
+
+submission.csv(54.3 kB)
+
+2 of 2 columns
+
+
+id
+
+price
+Label	Count
+3.00 - 2262.10	425
+2262.10 - 4521.20	495
+4521.20 - 6780.30	469
+6780.30 - 9039.40	461
+9039.40 - 11298.50	431
+11298.50 - 13557.60	429
+13557.60 - 15816.70	460
+15816.70 - 18075.80	468
+18075.80 - 20334.90	435
+20334.90 - 22594.00	447
+3
+22.6k
+Label	Count
+3.00 - 2262.10	425
+2262.10 - 4521.20	495
+4521.20 - 6780.30	469
+6780.30 - 9039.40	461
+9039.40 - 11298.50	431
+11298.50 - 13557.60	429
+13557.60 - 15816.70	460
+15816.70 - 18075.80	468
+18075.80 - 20334.90	435
+20334.90 - 22594.00	447
+3
+22.6k
+18395
+18395
+11771
+11771
+22326
+22326
+18332
+18332
+11021
+11021
+8614
+8614
+17654
+17654
+14898
+14898
+8794
+8794
+15325
+153
